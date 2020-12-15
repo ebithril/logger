@@ -1,0 +1,17 @@
+[package]
+name = "logger_reader"
+version = "0.1.0"
+authors = ["Patrik Görling <p.gorling@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fuzzy_search = { git = "https://github.com/ebithril/fuzzy_search", branch = "main" }
+imgui = "*"
+imgui-glium-renderer = "*"
+imgui-winit-support = "*"
+glium = { version = "0.28", default-features = true }
+clipboard = "0.5"
+logger_log = { path="../logger_log" }
+regex = "*"
